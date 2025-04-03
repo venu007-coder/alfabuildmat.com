@@ -1,0 +1,150 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>PHPMailer Test</title>
+</head>
+<body>
+   
+<div class="top">
+<a href="#" onclick="opendiv()">
+<img src="images/mail.png" width="100%" />
+</a>
+</div>
+
+<div class="top1">
+<a href="tel:+919353001002">
+<img src="images/call.png" width="100%" /></a>
+</div>
+
+<div class="top2">
+<a href="https://www.google.com/maps/d/u/0/edit?mid=1nGrfKs4HvzD6tRdlnNWWMSnhEWgxhedY&usp=sharing" target="_blank">
+<img src="images/location.png" width="100%" /></a>
+</div>   
+ 
+<div class="popup-home" id="close-now" >
+<div class="close-img"><a href="#" onclick="closediv()"> <img src="close.png" width="40px" /></a></div>
+ 
+<div class="content-popup" >
+<form action="send-sms.php" method="post" name="form" id="form" onsubmit="return va();" class="sign-up-form">
+<h3 align="center">SMS Enquiry</h3>
+<br>
+                      <div class="row">
+                            <div class="form-group   mt-2 col-lg-6">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+                            </div>
+                           
+                            <div class="form-group   mt-2 col-lg-6">
+                                <input type="text" name="mobile" id="mobile" class="form-control" placeholder="Enter your mobile No" required>
+                            </div>
+                             <div class="form-group mt-2 col-lg-12">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group   mt-2 col-lg-12">
+                                <select class="form-select" name="select1" id="select1">
+<option value="" disabled selected style="display:none;">Select Products</option>
+<option value="Stainless Steel Coils">Stainless Steel Coils</option>
+<option value="Stainless Steel Slitted Coils">Stainless Steel Slitted Coils</option>
+<option value="Stainless Steel Sheets">Stainless Steel Sheets</option>
+<option value="Stainless Steel Plates">Stainless Steel Plates</option>
+<option value="Stainless Steel Pipes">Stainless Steel Pipes</option>
+<option value="Stainless Steel Tubes">Stainless Steel Tubes</option>
+<option value="Stainless Steel Angles">Stainless Steel Angles</option>
+<option value="Stainless Steel Perforated Sheets & Coils">Stainless Steel Perforated Sheets & Coils</option> 
+<option value="Stainless Steel Bars">Stainless Steel Bars</option>
+<option value="Stainless Steel Flats">Stainless Steel Flats</option>
+<option value="Stainless Steel Diary Fitting">Stainless Steel Diary Fitting</option>
+<option value="Stainless Steel Industrial Fitting">Stainless Steel Industrial Fitting</option>
+<option value="Aluminum">Aluminum</option>
+<option value="Copper & Brass">Copper & Brass</option>
+<option value="Carbon & Mild Steel">Carbon & Mild Steel</option>
+<option value="ALL">ALL</option>
+</select> 
+                            </div>
+                             <div class="form-group   mt-2 col-lg-12">
+                              <div class="col-md-12 col-lg-12">  
+                              <input type="text" name="captcha" class="form-control" placeholder="Enter the code shown here" required></div>
+                              <div class="col-md-4 col-lg-4">
+                                <img style="vertical-align: bottom;" class="box" src="captcha.php">
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="form-group " style="text-align:center;">
+                                <input type="submit" class="s-btn" name="submit" id="submit" value="Send">
+                            </div>
+                           </div>
+                        </form>
+</div>
+
+</div> 
+   
+<div class="top">
+<a href="#" onclick="opendiv()">
+<img src="images/mail.png" width="100%" />
+</a>
+</div>
+
+<div class="top1">
+<a href="tel:+919353001002">
+<img src="images/call.png" width="100%" /></a>
+</div>
+
+<div class="top2">
+<a href="https://www.google.com/maps/d/u/0/edit?mid=1nGrfKs4HvzD6tRdlnNWWMSnhEWgxhedY&usp=sharing" target="_blank">
+<img src="images/location.png" width="100%" /></a>
+</div>   
+ 
+<div class="popup-home" id="close-now" >
+<div class="close-img"><a href="#" onclick="closediv()"> <img src="close.png" width="40px" /></a></div>
+ 
+<div class="content-popup" >
+<form action="send-sms.php" method="post" name="form" id="form" onsubmit="return va();" class="sign-up-form">
+<h3 align="center">SMS Enquiry</h3>
+<br>
+                      <div class="row">
+                            <div class="form-group   mt-2 col-lg-6">
+                                <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+                            </div>
+                           
+                            <div class="form-group   mt-2 col-lg-6">
+                                <input type="text" name="mobile" id="mobile" class="form-control" placeholder="Enter your mobile No" required>
+                            </div>
+                             <div class="form-group mt-2 col-lg-12">
+                                <input type="email" name="email" id="email" class="form-control" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-group   mt-2 col-lg-12">
+                                <input type="text" name="select1" id="select1" class="form-control" placeholder="Write your message" required> 
+                            </div>
+                             <div class="form-group   mt-2 col-lg-12">
+                              <div class="col-md-12 col-lg-12">  
+                              <input type="text" name="captcha" class="form-control" placeholder="Enter the code shown here" required></div>
+                              <div class="col-md-4 col-lg-4">
+                                <img style="vertical-align: bottom;" class="box" src="captcha.php">
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="form-group " style="text-align:center;">
+                                <input type="submit" class="s-btn" name="submit" id="submit" value="Send">
+                            </div>
+                           </div>
+                        </form>
+</div>
+
+</div> 
+
+<div style="width: 640px; font-family: Arial, Helvetica, sans-serif; font-size: 11px;">
+  <h1>This is a test of PHPMailer.</h1>
+  <div align="center">
+    <a href="https://github.com/PHPMailer/PHPMailer/"><img src="images/phpmailer.png" height="90" width="340" alt="PHPMailer rocks"></a>
+  </div>
+  <p>This example uses <strong>HTML</strong>.</p>
+  <p>Chinese text: 郵件內容為空</p>
+  <p>Russian text: Пустое тело сообщения</p>
+  <p>Armenian text: Հաղորդագրությունը դատարկ է</p>
+  <p>Czech text: Prázdné tělo zprávy</p>
+  <p>Emoji: <span style="font-size: 48px">😂 🦄 💥 📤 📧</span></p>
+</div>
+</body>
+</html>
